@@ -20,14 +20,14 @@ dynamics = {
   \override TextScript.extra-offset = #'(0 . 1)
   s1\mp | s1 | s1 | s1 |
   s2 s2\<
-  | s1\mp | s1 | 
+  | s1-\tweak X-offset #-0.3 -\mp | s1 | 
   s4\mf s4\< s2\! |
   s2 s2\> |
-  s1\mp | s1 | s1 | s1 |
+  s1-\tweak X-offset #-0.3 -\mp | s1 | s1 | s1 |
   s1\p | s1 | s1 | 
-  s1\mp |s1 | s1 | s1 | 
+  s1-\tweak X-offset #-0.3 -\mp |s1 | s1 | s1 | 
   s2 s8 s4.\< |
-  s1\mp |
+  s1-\tweak X-offset #-0.3 -\mp |
   s2 s2\< |
   s1\mf | s1 | 
   s2\< s2\f |
@@ -35,7 +35,7 @@ dynamics = {
   s1\p | s1 | 
   s2\rall s2\! | s1 | s1 | s1 | 
   s2\< s2\mf |
-  s2 s2_"rit."\> |
+  s2 s2-\tweak Y-offset #-3.7 _"rit."\> |
   s1\crpoco |
   s2 s2\f |
   s1\p | s1 | s1 | s1 | s1 | s1 | 

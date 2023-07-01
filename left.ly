@@ -13,8 +13,8 @@ left = \relative c {
     }
     \new Voice \relative c'' { \voiceOne
       r4 r8 \clef "treble" r16 a16 gis8 r16 e16 cis8 \clef "bass" a,16 gis |
-      r4 r8 \clef "treble" \ottava 1 r16 a''''16 gis8 r16 e16 cis8 \ottava 0 \clef "bass" fis,,,,16 e |
-      r4 r8 \clef "treble" \ottava 2 r16 <fis''''' a>16 <e gis>8 r16 <cis e>16 <a cis>8 \ottava 0 r8 | \clef "bass" 
+      r4 r8 \clef "treble^8" r16 a''''16 gis8 r16 e16 cis8 \clef "bass" fis,,,,16 e |
+      r4 r8 \clef "treble^15" r16 <fis''''' a>16 <e gis>8 r16 <cis e>16 <a cis>8 r8 | \clef "bass" 
       s1 |
     }
   >> \oneVoice
@@ -51,8 +51,8 @@ left = \relative c {
     }
     \new Voice \relative c'' { \voiceOne
       r4 r8 \clef "treble" r16 a16 gis8 r16 e16 cis8 \clef "bass" a,16 gis |
-      r4 r8 \clef "treble" \ottava 1 r16 a''''16 gis8 r16 e16 cis8 \ottava 0 \clef "bass" fis,,,,16 e |
-      r4 r8 \clef "treble" \ottava 2 r16 <fis''''' a>16 <e gis>8 r16 <cis e>16 <a cis>8 \ottava 0 r8 | \clef "bass" 
+      r4 r8 \clef "treble^8" r16 a''''16 gis8 r16 e16 cis8 \clef "bass" fis,,,,16 e |
+      r4 r8 \clef "treble^15" r16 <fis''''' a>16 <e gis>8 r16 <cis e>16 <a cis>8 r8 | \clef "bass" 
       s1 |
     }
   >> \oneVoice

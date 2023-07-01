@@ -79,9 +79,9 @@ right = \relative c'' {
   <cis' fis a cis>2 \arpeggio <b e gis b> \arpeggio | \ottava 0
 
   <b, cis e b'>16\arpeggio e cis b a' e cis a' gis e cis gis fis' e cis gis |
-  e'16 d a fis d' cis a fis cis'( a fis d \change Staff = "left" b gis e cis) | \change Staff = "right" 
-  b''16( gis e cis \change Staff = "left" a fis d b) \change Staff = "right" a''(  fis d b \change Staff = "left" g e cis b) | \change Staff = "right" 
-  gis''( e cis a \change Staff = "left"  gis e cis a) \change Staff = "right" gis''( e cis a \change Staff = "left"  gis e cis a) | \change Staff = "right" 
+  e'16 d a fis d' cis a fis cis'\shape #'((-0.85 . -4.6) (-1 . -13) (0 . -8) (-0.3 . -11)) ( a fis d \change Staff = "left" b gis e cis) | \change Staff = "right" 
+  b''16\shape #'((-0.85 . -4.6) (0 . -11) (0 . -4) (-0.3 . -6.4)) ( gis e cis \change Staff = "left" a fis d b) \change Staff = "right" a''\shape #'((-0.85 . -5.1) (0 . -11) (0 . -4) (-0.3 . -6.4))(  fis d b \change Staff = "left" g e cis b) | \change Staff = "right" 
+  gis''\shape #'((-0.85 . -5.1) (0 . -11) (0 . -4) (-0.3 . -7.8))( e cis a \change Staff = "left"  gis e cis a) \change Staff = "right" gis''\shape #'((-0.85 . -5.1) (0 . -11) (0 . -4) (-0.3 . -7.8))( e cis a \change Staff = "left"  gis e cis a) | \change Staff = "right" 
   gis''( e cis a \change Staff = "left"  gis e cis \change Staff = "right" b') r2 |
   
   \bar "||"
